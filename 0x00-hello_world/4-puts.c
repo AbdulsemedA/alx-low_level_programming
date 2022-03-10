@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main prints "programming is like building ...
- * return: 0.
+ * main - prints "programming is like building ...
+ * 
+ * Return: Always 0.
  */
 int main(void)
 {
