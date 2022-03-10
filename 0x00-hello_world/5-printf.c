@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints with proper grammer, but the outcome is a piece of art,followed by new line
+ * main - Prints with proper grammer, but
+ * the outcome is a piece of art,followed by new line
  *
  * Return: Always 0.
  */
