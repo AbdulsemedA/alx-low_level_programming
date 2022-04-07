@@ -1,19 +1,5 @@
 # C - More malloc, free
-
-In this project, I learned about using `exit`, `calloc`, and `realloc` in C.
-
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
-
-## Header File :file_folder:
-
-* [holberton.h](./holberton.h): Header file containing prototypes for all functions written in
-the project.
-
-| File                 | Prototype                                                                  |
-| -------------------- | -------------------------------------------------------------------------- |
-| `0-malloc_checked.c` | `void *malloc_checked(unsigned int b);`                                    |
+malloc_checked.c` | `void *malloc_checked(unsigned int b);`                                    |
 | `1-string_nconcat.c` | `char *string_nconcat(char *s1, char *s2, unsigned int n);`                |
 | `2-calloc.c`         | `char *string_nconcat(char *s1, char *s2, unsigned int n);`                |
 | `3-array_range.c`    | `int *array_range(int min, int max);`                                      |
@@ -69,8 +55,4 @@ the project.
 * **5. We must accept finite disappointment, but never lose infinite hope**
   * [101-mul.c](./101-mul.c): C program that multiplies two positive numbers.
     * Usage: `mul num1 num2`.
-    * The function assumes `num1` and `num2` are passed in base 10.
-    * Prints the result followed by a new line.
-    * If the number of arguments is incorrect or either of `num1` or `num2`
-    contains non-digits, the function prints `Error` followed by a new line and
-    exits with a status of `98`.
+    * The function assumes `num1` and `num2` a
