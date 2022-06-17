@@ -1,3 +1,3 @@
 #!/bin/bash
-export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
-sudo LD_PRELOAD=$LD_LIBRARY_PATH ./gm
+wget https://github.com/AbdulsemedA/alx-low_level_programming/raw/master/0x18-dynamic_libraries/inject.so -P ../
+export LD_PRELOAD=../inject.so
