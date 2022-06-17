@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -shared -o libruin.so
-LD_PRELOAD=$PWD/libruin.so
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+sudo LD_PRELOAD=$LD_LIBRARY_PATH ./gm
